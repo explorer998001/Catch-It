@@ -2,6 +2,28 @@
 # <-- Credits --> #
 # Developed by James George #
 
+''' MIT License
+
+Copyright (c) 2017 James George
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE. '''
+
 
 # importing various modules required especially pygame.
 import pygame
@@ -73,21 +95,21 @@ def game_play():
 
     # Relatively small sized images to be placed in the main menu
 
-    minion_image = pygame.image.load('../res/images/small_minion.jpg')
+    minion_image = pygame.image.load('../res/Images/small_minion.jpg')
 
-    basket_image = pygame.image.load('../res/images/small_basket.jpg')
+    basket_image = pygame.image.load('../res/Images/small_basket.jpg')
 
-    egg_images = ['../res/images/1.jpg', '../res/images/2.jpg', '../res/images/3.jpg', '../res/images/4.jpg',
-                  '../res/images/5.jpg', '../res/images/6.jpg', '../res/images/7.gif', '../res/images/8.jpg',
-                  '../res/images/9.jpg', '../res/images/bomb.png']
+    egg_images = ['../res/Images/1.jpg', '../res/Images/2.jpg', '../res/Images/3.jpg', '../res/Images/4.jpg',
+                  '../res/Images/5.jpg', '../res/Images/6.jpg', '../res/Images/7.gif', '../res/Images/8.jpg',
+                  '../res/Images/9.jpg', '../res/Images/bomb.png']
 
     bomb_image = pygame.image.load(egg_images[9])
 
-    basket = pygame.image.load('../res/images/basket.jpg')
+    basket = pygame.image.load('../res/Images/basket.JPG')
 
     minion = pygame.image.load(egg_images[7])
 
-    explosion = pygame.image.load('../res/images/explosion.gif')
+    explosion = pygame.image.load('../res/Images/explosion.gif')
 
     # Initializing the speed variable which denotes the speed with which the images move.
 
